@@ -2,7 +2,7 @@
 
 ## **App URL**
 
-https://github.com/wanny017/weather
+https://wanny017.github.io/weather/
 
 ## **Goals**
 
