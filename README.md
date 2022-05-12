@@ -22,5 +22,5 @@ Use the OpenWeather One Call API to retrieve weather data for user selected citi
 ## **Web App**
 
 ![Pre History ](/img/ss.png)
-![Search History ](/img/ss1.png)
+![Search History ](/img/sss.png)
 ![Post Search](/img/ss2.png)
