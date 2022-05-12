@@ -1,0 +1,218 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    height: 100%;
+    margin: 0;
+    min-height: 100vh;
+    padding: 0px;
+    background-color: #ebebeb;
+}
+h2 {
+    margin: 0;
+    padding-top: 15px;
+    padding-bottom: 8px;
+    font-weight: 500;
+    display: inline-flex;
+}
+
+
+header {
+    height: 300px;
+    background: url(https://www.awxcdn.com/adc-assets/images/hero/2/1440x450.jpg) 50% no-repeat,linear-gradient(#878787,#ebebeb);
+    background-size: cover;
+    min-width: 768px;
+    width: 100%;
+    border-bottom: 2px solid #ec5f17;
+    display: flex;
+    flex-flow: column;
+    position: relative;
+    margin-bottom: 24px;
+    border: 0;
+    box-sizing: border-box;
+    font: inherit;
+    margin: 0;
+    padding: 0;
+}
+
+header .wd{
+    display: flex;
+    align-items: left;
+    justify-content: center;
+    flex-direction: column;
+    color: white;
+    font-size: 30px;
+    display:block;
+    margin-top: 30px;
+    margin-left: 20px;
+}
+
+
+.user-search {
+    padding-right: 20px;
+    margin-left: 10px;
+}
+
+
+.current-weather {
+    height: auto;
+    border: 2px #000000 solid;
+    padding: 10px;
+    margin: 15px;
+}
+
+.main-flex {
+    display: flex;
+    align-items: baseline;
+}
+
+.next-five-days h2 {
+    margin: 15px;
+}
+
+.future-forecast-cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+ h3{
+    font-size: 20px;
+}
+
+.future-card {
+    color: white;
+    background-color: #103752;
+    margin-left: 30px;
+    height: auto;
+}
+
+input {
+    width: 100%;
+    height: 45px;
+    font-size: 20px;
+    border: 1px solid #333;
+    border-radius: 3px;
+}
+
+button {
+
+    color: #ffffff;
+    width: 200px;
+    text-align: center;
+    margin-top: 18px;
+    background-color: #43b3f3;
+    padding: 3px;
+    list-style: none;
+    border-radius: 3px;
+    box-shadow: none;
+    border: none;
+} 
+
+header input{
+	border: 0;
+	outline: none;
+	color: #8b7d77;
+}
+.search_wrap{
+    margin-top: 400px;
+	width: 600px;
+	margin: auto;
+}
+.search_wrap .search_box{
+	position: relative;
+	width: 700px;
+	height: 60px;
+}
+.search_wrap .search_box input{
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	padding: 10px 20px;
+	border-radius: 3px;
+	font-size: 18px;
+}
+.search_wrap .search_box .btn{
+	position: absolute;
+	top: 0;
+	right: 0;
+	width: 60px;
+	height: 100%;
+	background: #7690da;
+	z-index: 1;
+	cursor: pointer;
+}
+.search_wrap .search_box .btn:hover{
+	background: #708bd2;	
+}
+
+.search_wrap .search_box .btn.btn_common .fas{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	color: #fff;
+	font-size: 20px;
+}
+.search_wrap .search_box input{
+	padding-right: 80px;
+    border-radius: 50px;
+}
+.search_wrap .search_box .btn{
+	right: 0px;
+	border-radius: 50%;
+}
+
+
+ul{
+    display: flex;
+    flex-direction: column;
+    padding: 0px;
+}
+li {
+    height: auto;
+    width: 100%;
+    text-align: center;
+    margin-top: 18px;
+    color: black;
+    background-color: #bec4c8;
+    border: solid 2px #bec4c8;
+    padding: 3px;
+    list-style: none;
+    border-radius: 3px;
+}
+
+
+
+.five-day-card {
+    margin: 5px;
+    background-color: rgb(68, 66, 80);
+    color: #ffffff;
+    font-size: 16px;
+    padding: 8px;
+}
+
+
+.low-uvi{
+    background-color: rgb(50, 196, 50);
+    padding: 0, 7px;
+    border-radius: 5px;
+
+}
+
+.mid-uvi {
+    background-color: rgb(236, 162, 33);
+    padding: 0 7px;    
+    border-radius: 5px;
+}
+
+.high-uvi {
+    background-color: rgb(195, 40, 40);
+    padding: 0 7px;
+    border-radius: 5px;
+}
+
+
