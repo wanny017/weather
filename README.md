@@ -2,7 +2,7 @@
 
 ## **App URL**
 
-https://frygit87.github.io/Weather-Forecaster/
+https://github.com/wanny017/weather
 
 ## **Goals**
 
